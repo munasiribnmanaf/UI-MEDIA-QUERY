@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100wh;
+    background-color: black;
+}
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    width: 20%;
+}
+.main h1{
+    color: rgb(254,215,13);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    margin-right: 15%;
+}
+.main2 li{
+    list-style-type: none;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main3{
+    height: 60%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main3 h1{
+    color: white;
+    font-size: 10px;
+}
+.main4{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main4 h1{
+    color: white;
+    font-size: 10px;
+    padding: .3rem .4rem;
+    border-radius: 50px;
+    color: black;
+    background-color: rgb(255, 255, 0)
+}
+.main5{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.head{
+    width: 100%;
+    height: 45%;
+    display: flex;
+}
+.head1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.head1 h1{
+    font-weight: 100;
+    color: white;
+    font-size: 500%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.head2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.head2 h2{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+.head2 p{
+    text-align: center;
+    color: white;
+}
+.head2 button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(255, 255, 0) ;
+    border: none;
+}
+.btn{
+    text-align: center;
+}
+.content{
+    width: 100%;
+    height: 45%;
+    display: flex;
+}
+.content1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+.content2{
+    width: 50%;
+    height: 99%;
+    background-image: url(/img/pexels-junnoet-235298.jpg);
+    background-size: cover;
+}
+.iq2{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.iq2 p{
+    color: white;
+}
+.iq3 h3{
+    font-size: 45px;
+    color:rgb(255, 255, 0);
+  
+}
+.iq3 p{
+    color: white;
+}
+span{
+    font-size: 15px;
+    color: rgb(120, 120, 120);
+}
+.iq3{
+    width: 78%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.iq4{
+    width: 88%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+}
+.iq4 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+    gap: 60px;
+    color: white;
+    margin-left: 6%;
+}
+
+@media all and (max-width:670px) {
+    .main2 ul {
+        display:none;
+    }
+    .main2{
+        display: none;
+    }
+    .main{
+        width: 35%;
+    }
+    .main h1{
+        font-size: 10px;
+    }
+    .main3{
+        height:40%;
+        width: 35%;
+    }
+    .main3 h1{
+        font-size: 5px;
+    }
+    .main5 h1:hover{
+        padding: .1rem .4rem;
+        border-radius: 50px;
+        background-color: #fff348
+    }
+    .main4{
+        height: 30%;
+        width: 25%;
+        border-radius: 20px;
+    }
+    .main4 h1{
+        font-size: 5px;
+    }
+    .main5{
+        gap: 10px;
+    }
+    .head{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .head1{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .head1 h1{
+        font-size: 45px;
+        margin-top: 50px;
+    }
+    .head2{
+         font-size: 10px;
+         width: 100%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .content1{
+        height: auto;
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+    .content2{
+        width:100%;
+        height:200px;
+        background-color: red;
+    }
+    .iq2{
+        width: 100%;
+        text-align: left;
+    }
+    .iq3 p{
+        font-size: 15px;
+        color: white;
+    }
+    .iq3{
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        align-items: center;
+    }
+    .iq4{
+        width: 98%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .iq3 h3{
+        font-size: 30px;
+    }
+    .iq4 ul{
+        gap: 15px;
+        font-size: 12px;
+    }
+    .iq{
+        margin-bottom: 40px;
+        height: auto;
+    }
+    .iq1{
+        height: auto;
+    }
+    .iq p{
+       margin-top: 40px;
+       margin-right:20% ;
+       margin-left:20%;
+       font-size: 15px;
+       text-align: center;
+    }
+    .iq h2{
+        position: relative;
+        top: 40px;
+        font-size: 30px;
+    }
+    .btn{
+        position: relative;
+        top: -40px;
+    }
+}
+@media all and (min-width:750px) and (max-width:950px){
+    .head1 h1{
+        font-size:60px;
+    }
+    .iq h2{
+        font-size: 30px;     
+    }
+    .iq p{
+        font: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(148, 140, 140);
+        text-align: center;
+    }
+    .iq4 ul{
+        font-size: 10px;
+        margin-top: 30px;
+    }
+}
